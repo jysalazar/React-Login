@@ -50,6 +50,7 @@ export const Login = () => {
     return (
         <>
             <pre>{ JSON.stringify(user, null, 2) }</pre>
+            <pre>{ JSON.stringify(user, null, 2) }</pre>
 
             <div className="ms-Grid" dir="ltr">
                 <div className="ms-Grid-row">
