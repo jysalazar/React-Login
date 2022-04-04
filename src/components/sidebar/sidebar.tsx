@@ -32,9 +32,9 @@ const navLinkGroups: INavLinkGroup[] = [
                 icon: "BarChartVerticalFilter",
             },
             {
-                key: "Configuracion",
-                name: "Configuración",
-                url: "configuration",
+                key: "Telerik",
+                name: "Telerik",
+                url: "telerik",
                 icon: "Settings",
             },
         ],

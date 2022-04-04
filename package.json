@@ -5,14 +5,15 @@
   "dependencies": {
     "@fluentui/react": "^8.48.1",
     "@fluentui/react-cards": "^0.200.77",
+    "@progress/telerik-react-report-viewer": "^15.22.119",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "@types/jest": "^26.0.24",
-    "@types/node": "^12.20.38",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "@types/styled-components": "^5.1.20",
+    "jquery": "^3.6.0",
     "office-ui-fabric-core": "^11.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -45,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^12.20.47"
   }
 }

@@ -6,6 +6,7 @@ import NavbarTest from "../components/navbar/navbar-test";
 import { Sidebar } from "../components/sidebar/sidebar";
 import { Login } from "../pages/login"
 import { CustomPanel } from "../pages/panel";
+import { Telerik } from "../pages/telerik";
 import { ALFA, ROUTE_INITAL } from "../util/helper";
 
 const Verified = () => {
@@ -88,7 +89,7 @@ export const ContentRouter = () => {
                 <Route path="adm" element={<Verified />}>
                     <Route path='products' element={<PageOne />} />
                     <Route path='cuadro-mando' element={<CustomPanel />} />
-                    <Route path='configuration' element={<div>CONFIGURATION</div>} />
+                    <Route path='telerik' element={<Telerik /> } />
                     <Route path='*' element={<Navigate replace to='/login' />} />
                 </Route>
                 
